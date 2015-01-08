@@ -1,0 +1,116 @@
+h2, h3
+{
+    margin: 0;
+}
+
+h2 span.webix_icon
+{
+    font-size: 22px;
+    width: 22px;
+}
+
+div.white_bg
+{
+    background-color: #fff;
+}
+
+span.prn
+{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-image: url(../images/icon-19.png);
+    vertical-align: text-top;
+}
+
+span.big_spin
+{
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+div.btn_center_text button > span
+{
+    text-align: center;
+}
+
+span.config
+{
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    background-color: #3498db;
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+div.accounts_list
+{
+    background-color: transparent;
+}
+
+div.accounts_list div.webix_list_item.webix_selected
+{
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+div.accounts_list div.webix_list_item
+{
+    border: none;
+    margin-bottom: 5px;
+}
+
+div.labels_list
+{
+    background-color: transparent;
+}
+
+div.labels_list div.webix_list_item,
+div.labels_list div.webix_list_item.webix_selected
+{
+    color: #666;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.labels_list div.webix_list_item div.label span.checked,
+div.labels_list div.webix_list_item.webix_selected div.label span.unchecked
+{
+    display: none;
+}
+
+div.labels_list div.webix_list_item div.label span.unchecked,
+div.labels_list div.webix_list_item.webix_selected div.label span.checked
+{
+    display: inline-block;
+}
+
+div.labels_list div.webix_list_item div.label span.name
+{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);
+    border: 1px solid transparent;
+}

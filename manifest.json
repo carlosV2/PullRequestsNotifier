@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Pull Request Notifier",
+  "description": "Extension to notify about pull requests to review.",
+  "version": "0.1",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": [
+    "storage",
+    "https://api.github.com/*"
+  ],
+  "icons": {
+    "16": "images/icon-16.png",
+    "19": "images/icon-19.png",
+    "42": "images/icon-42.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon-19.png",
+    "default_popup": "html/popup.html"
+  },
+  "background": {
+    "scripts": [
+      /*"src/Repository.js",
+      "src/PullRequestsRepository.js",
+      "src/AuthTokenRepository.js",
+      "src/Github.js",
+      "src/background.js"*/
+    ]
+  },
+  "options_page": "html/options.html"
+}
